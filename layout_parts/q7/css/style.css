@@ -1,5 +1,74 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/*ー Q7-1 floatでの横並び ー*/
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.float{
+  width: 225px;
+  float: left;
+  box-sizing: border-box;
+  margin-right:50px;
+  font-size: 16px;
+}
+.float:last-child{
+  margin-right: 0;
+}
+/*ー Q7-2 tableでの横並び ー*/
+.tableall{
+  display: table;
+  }
+.table{
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+  width: 225px;
+  }
+.q7__box__text{
+  font-size: 16px;
+}
+.table:first-child{
+  padding-left: 0;
+}
+.inblock{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 225px;
+  margin-right:50px;
+  font-size:16px;
+  vertical-align: middle;
+  }
+  .inblock:last-child{
+    margin-right: 0;
+  }
+  /*ー Q7-4 flexでの横並び ー*/
+.flex__all{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  }
+  .flex{
+    width: 225px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+/*ー Q7-5 inline-blockとmarginでの横並び ー*/
 
+.inline-margin{
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+}
+.inline-margin1{
+  width: 300px;
+  margin-right: 50px;
+}
+.inline-margin2{
+  flex:1 ;
+  min-width:0;
+  overflow: hidden;
+}
 /* 回答はここに書いてね */

@@ -31,27 +31,27 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <p class="q8__title small-button">ー small ー</p>
+            <div class="button1 common">common</div>
+            <div class="button1 error">error</div>
+            <div class="button1 disabled">disabled</div>
+            <div class="button1 shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="button2 common">common</div>
+            <div class="button2 error">error</div>
+            <div class="button2 disabled">disabled</div>
+            <div class="button2 shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="button3 common">common</div>
+            <div class="button3 error">error</div>
+            <div class="button3 disabled">disabled</div>
+            <div class="button3 shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,11 +99,81 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="q8__form">
+              <div class="form__title"><!--タイトル-->
+                <p class="form__title__text">Form Exercise</p>
+              </div>
+              <!--本体-->
+              <div class="clearfix">
+                <div class="form__left">  <!--左用-->
+                  <ul class="form__left__main">
+                    <li class="clearfix">
+                      <p class="form__left__box">名前<span class="advice">*</span></p>
+                      <div class="form__left__box__content">
+                        <input class="form__input input__reset" type="text" name="name" required="">
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="form__left__box">性別</p>
+                      <div class="form__left__box__content">
+                        <label class="radio">
+                          <input class="radio__button" type="radio" name="gender" value="male">
+                          <span class="radio__button__text">男性</span>
+                        </label>
+                        <label class="radio">
+                          <input class="radio__button" type="radio" name="gender" value="female">
+                          <span class="radio__button__text">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="form__left__box">出身</p>
+                      <div class="form__left__box__content home__select">
+                        <select name="home" class="select__body input__reset">
+                          <option value="Tokyo">東京</option>
+                          <option value="Saitama">埼玉</option>
+                          <option value="Chiba">千葉</option>
+                          <option value="Kanagawa">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="form__left__box">Eメール<span class="advice">*</span></p>
+                      <div class="form__left__box__content">
+                        <input class="form__input input__reset" type="email" placeholder="ex) hoge@gmail.com" name="email" required="">
+                      </div>
+                    </li> 
+                    <li class="clearfix">
+                      <p class="form__left__box">電話番号</p>
+                      <div class="form__left__box__content">
+                        <input class="form__input input__reset" type="text" name="tel" placeholder="ex) 08012345678">
+                      </div>
+                    </li>  
+                    <li class="clearfix">
+                      <div class="form__left__box__content">
+                        <div class="form__left__checkbox">
+                          <input class="checkbox__button" id="form__left__checkbox" type="checkbox" name="twenty" value="true">
+                          <label for="form__left__checkbox" class="checkbox__text">20歳以上です</label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <div class="form__left__submit__bottom">
+                    <button class="submit__bottom__bt input__reset" type="submit">送信</button>
+                  </div>
+                </div><!--左用おわり-->
+                
+                <div class="form__right">  <!--右用-->
+                  <textarea class="form__right__text input__reset" name="message" placeholder="何かあれば入力してください。"></textarea>
+                </div><!--右用おわり-->
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
       </div>
     </div>
-  </body>
-</html>
+
+
+</body></html>
