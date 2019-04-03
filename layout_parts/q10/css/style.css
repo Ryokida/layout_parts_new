@@ -9,25 +9,6 @@
   padding: 20px;
   border-radius: 30px;
 }
-/*.text__ballon::before {
-  position: absolute;
-  content: "";
-  margin-left: 20px;
-  bottom: -65px;
-  border: 38px solid transparent;
-  border-top: 27px solid #222;
-
-}
-
-.text__ballon::after {
-  position: absolute;
-  content: "";
-  bottom: -49px;
-  margin-left: -57px;
-  border: 30px solid transparent;
-  border-top: 20px solid #fff;
-}*/
-
 .text__ballon:before,
 .text__ballon:after {
   position: absolute;
