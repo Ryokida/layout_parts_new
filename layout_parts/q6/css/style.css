@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.q60{
+.q6__table {
   display: table;
 
 }
@@ -34,7 +34,7 @@
   background-color: #FFF;
 }
 
-.q61{
+.q__flex {
   display: flex;
   align-items: center;
   justify-content: center;
