@@ -7,7 +7,7 @@
   text-align: center;
   white-space: nowrap;
 }
-table th{
+.layout th{
   background-color: #2244aa;
   color: #ffffff;
   padding: 10px;
@@ -15,7 +15,7 @@ table th{
   font-size: 18px;
   line-height: 26px;
 }
-table td{
+.layout td{
   border:solid #dedede 1px;
   padding: 10px;
   font-size: 16px;

@@ -16,56 +16,55 @@
   position: absolute;
   width: 100px;
 }
-.a1{
+.box__one {
   background-color: #ffdfd3;
   top:40px;
   left: 200px;
   z-index:1;
 }
-  
-.a2{
+.box__two {
   background-color: #7084de;
   top:120px;
   left: 280px;
   z-index:2;
 }
-.a3{
+.box__three {
   background-color: #d0ecea;
   top:200px;
   left: 360px;
   z-index:3;
 }
-.a4{
+.box__four {
   background-color: #8b7a5e;
   top:280px;
   left: 280px;
   z-index:4;
 }
-.a5{
+.box__five {
   background-color: #9fd6d2;
   top:360px;
   left: 200px;
   z-index:5;
 }
-.a6{
+.box__six {
   background-color: #fffee2;
   top:280px;
   left: 120px;
   z-index:6;
 }
-.a7{
+.box__seven {
   background-color: #deae70;
   top:200px;
   left: 40px;
   z-index:7;
 }
-.a8{
+.box__eight {
   background-color: #de70cf;
   top:120px;
   left: 120px;
   z-index:8;
 }
-.a8::after{
+.box__eight::after{
   content:"";
   background-color:#ffdfd3;
   position: absolute;
@@ -75,7 +74,7 @@
   right: 0px;
   }
 
-.a9{
+.box__nine {
   position: fixed;
   top:  10px;
   left: 10px;

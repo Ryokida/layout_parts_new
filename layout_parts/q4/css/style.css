@@ -7,28 +7,20 @@
   padding: 20px;
   box-sizing: border-box;
 }
-div.table1 ,div.table2{
+.table {
   display:table;
   width: 100%;
   margin-top: 30px;
 } 
-
-div.table1 div{
+.table div{
   display: table-cell;
   vertical-align:middle;
   white-space: nowrap;
   padding: 20px 0 20px 0;
   text-align: center;
 }
-  div.table1:first-child{
+.table:first-child {
   margin-top: 0;
-}
-div.table2 div{
-  display: table-cell;
-  vertical-align:middle;
-  white-space: nowrap;
-  padding: 20px 0 20px 0;
-  text-align: center;
 }
 
 .a{

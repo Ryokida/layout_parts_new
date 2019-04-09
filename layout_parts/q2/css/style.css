@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.clearfix{
+.main__box{
   width: 900px;
   background-color: #eff3f4;
   padding: 20px;
@@ -18,10 +18,12 @@
 .left__img{
   margin-right: 20px;
   margin-bottom: 10px;
+  float: left;
 }
 .right__img{
   margin-left: 20px;
   margin-bottom: 10px;
+  float: right;
 }
 
 /* 回答はここに書いてね */

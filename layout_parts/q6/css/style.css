@@ -39,15 +39,15 @@
   align-items: center;
   justify-content: center;
 }
-.a1{
+.flex__text {
   padding: 10px;
   background-color: #fff;
 }
 
-.a2{
+.position__box{
   position: relative;
 }
-.a3{
+.position__fixing{
   position: absolute;
   top:0;
   left:0;
@@ -55,14 +55,10 @@
   bottom:0;
   margin: auto;
 }
-.a4{
-  position: relative;
-}
-.a5{
+.position__variable{
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
-  
 }
 /* 回答はここに書いてね */

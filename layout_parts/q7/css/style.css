@@ -33,6 +33,10 @@
 .table:first-child{
   padding-left: 0;
 }
+/*ー Q7-3 inline-blockでの横並び ー*/
+.q7--inlineblock{
+  font-size: 0;
+}
 .inblock{
   box-sizing: border-box;
   display: inline-block;
